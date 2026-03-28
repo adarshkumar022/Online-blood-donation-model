@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+}
+
+/* Cards Layout */
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+/* Card */
+.card {
+    background: white;
+    color: #333;
+    text-decoration: none;
+    padding: 30px;
+    width: 220px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    transition: 0.3s;
+    text-align: center;
+}
+
+.card i {
+    font-size: 40px;
+    color: #ff416c;
+    margin-bottom: 15px;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+/* Forms */
+h2 {
+    text-align: center;
+    color: white;
+    margin-top: 40px;
+}
+
+form {
+    width: 350px;
+    margin: 30px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+/* Inputs */
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+/* Button */
+button {
+    width: 100%;
+    padding: 12px;
+    background: #ff416c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Tables */
+.table-container {
+    width: 90%;
+    margin: 30px auto;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background: #ff416c;
+    color: white;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+
+/* Buttons */
+.btn {
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.green {
+    background: green;
+}
+
+.red {
+    background: red;
+}
+/* Card Grid for Data */
+.data-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+/* Data Card */
+.data-card {
+    background: white;
+    color: black;
+    padding: 20px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Status */
+.status {
+    font-weight: bold;
+    margin: 10px 0;
+}
+/* Dashboard Cards */
+.dashboard-cards {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin: 40px;
+    flex-wrap: wrap;
+}
+
+.dashboard-card {
+    background: white;
+    width: 220px;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+.dashboard-card h2 {
+    color: #ff416c;
+    font-size: 35px;
+    margin: 10px 0;
+}
+
+.dashboard-card p {
+    font-size: 18px;
+    color: #333;
+}
+
+/* Data Cards */
+.data-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.data-card {
+    background: white;
+    color: black;
+    padding: 20px;
+    width: 250px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Assigned & Pending */
+.assigned-card {
+    border: 2px solid green;
+    background: #eaffea;
+}
+
+.pending-card {
+    border: 2px solid orange;
+    background: #fff4e6;
+}
+
+/* Badge */
+.badge {
+    padding: 5px 10px;
+    border-radius: 20px;
+    color: white;
+    font-size: 12px;
+}
+
+.badge-green {
+    background: green;
+}
+
+.badge-orange {
+    background: orange;
+}
+
+/* Buttons */
+.btn {
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.green {
+    background: green;
+}
+
+.red {
+    background: red;
+}
